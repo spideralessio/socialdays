@@ -432,6 +432,9 @@ ul li {
 /* 
  * 6.6 Section: Schedule
  */
+ .carousel-control.right, .carousel-control.left{
+  background: none;
+ }
 .schedule-box {
   position: relative;
   background-color: #000;
@@ -453,6 +456,13 @@ ul li {
 /* 
  * 6.7 Section: Schedule
  */
+
+.in.collapse+a.btn.showdetails:before { 
+    content:'Hide «';
+}
+.collapse+a.btn.showdetails:before { 
+    content:'Show all »'; 
+}
 .partner {
   background-color: #f8f8f8;
 }

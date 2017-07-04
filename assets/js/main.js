@@ -33,7 +33,7 @@ function handleTopNavAnimation() {
 
 smoothScroll.init();
 
-$("a[data-scroll]").click(function(){
+$("nav a[data-scroll]").click(function(){
     if (!$("#menu-button").is(":hidden")) {
         $("#menu-button").click()
     }

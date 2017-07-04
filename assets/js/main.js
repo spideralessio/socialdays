@@ -34,5 +34,7 @@ function handleTopNavAnimation() {
 smoothScroll.init();
 
 $("a[data-scroll]").click(function(){
-    $("#menu-button").click()
+    if (!$("#menu-button").is(":hidden")) {
+        $("#menu-button").click()
+    }
 });

@@ -440,7 +440,7 @@ ul li {
   background-color: #000;
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0;
   margin: 25px 0 0;
 }
 .schedule-box::before {
@@ -451,6 +451,12 @@ ul li {
   bottom: 5px;
   left: 5px;
   border: 1px solid #fff;
+}
+#myCarousel{
+  background-color: #d4d1d1;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 /* 
@@ -689,10 +695,6 @@ ul li {
   }
 }
 @media (min-width: 992px) {
-  .schedule-box {
-    margin: 0;
-  }
-
   .grid-item-md-6 {
     width: 50%;
   }

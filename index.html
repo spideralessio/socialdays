@@ -12,10 +12,30 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/theme4.css">
 	<meta property="og:title" content="Social Days"/>
 	<meta property="og:description" content="Sito ufficiale dei Social Days (13-16 Luglio 2017 / Curvone di Ostia)"/>
 	<meta property="og:url" content="http://www.socialdays.org"/>
 	<meta property="og:image" content="http://www.socialdays.org/assets/images/logo_social.jpg"/>
+	<!-- AddEvent -->
+	<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+	<!-- AddEvent Settings -->
+	<script type="text/javascript">
+	window.addeventasync = function(){
+	    addeventatc.settings({
+	        license    : "aXaHivJUTzyHACTjRmXR29640",
+	        mouse      : false,
+	        css        : false,
+	        outlook    : {show:true, text:"Outlook"},
+	        google     : {show:true, text:"Google <em>(online)</em>"},
+	        yahoo      : {show:true, text:"Yahoo <em>(online)</em>"},
+	        outlookcom : {show:true, text:"Outlook.com <em>(online)</em>"},
+	        appleical  : {show:true, text:"Apple Calendar"},
+	        facebook   : {show:true, text:"Facebook Event"},
+	        dropdown   : {order:"outlook,google,appleical,facebook"}
+	    });
+	};
+	</script>
 </head>
 <body data-spy="scroll" data-target="#site-nav">
 	<nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
@@ -46,7 +66,8 @@
 
 					<!-- navigation menu -->
 					<li class="active"><a data-scroll href="#about">Chi Siamo</a></li>
-					<li><a data-scroll href="#schedule">Programma</a></li>                  
+					<li><a data-scroll href="#schedule">Programma</a></li>              
+					<li><a data-scroll href="#connect">Connettiti</a></li>            
 					<li><a data-scroll href="#partner">Le Associazioni</a></li>       
 					<li><a data-scroll href="#faq">FAQ</a></li>
 					<li><a data-scroll href="#photos">Foto</a></li>
@@ -683,6 +704,42 @@
 			
 			
 	</section>
+	<section id="connect" class="section bg-image-2 contribution">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="text-uppercase mt0 font-400">Connettiti</h3>
+						<br><br>
+						<div title="Add to Calendar" class="addeventatc btn btn-white" style="width: auto !important">
+							<div class="date" style="padding-right: 30px !important;  width: auto !important;">
+								<span class="mon">LUGLIO</span>
+								<span class="day">13-16</span>
+								<div class="bdr1"></div>
+								<div class="bdr2"></div>
+							</div>
+							<div class="desc">
+								<p>
+									<strong class="hed">SOCIAL DAYS</strong>
+									<span class="des">Curvone di Ostia<br>00122 Lido di Ostia, Roma RM</span>
+								</p>
+							</div>
+						    <span class="start">13/07/2017 18:00</span>
+						    <span class="end">16/07/2017 23:00</span>
+						    <span class="timezone">Europe/Rome</span>
+						    <span class="title">Social Days</span>
+						    <span class="description">SOCI@L DAYS - Festival delle Associazioni del X Municipio dal 13 al 16 luglio a P.le Magellano "Curvone" (Lido di Ostia).
+categories
+</span>
+						    <span class="location">Curvone di Ostia 00122 Lido di Ostia, Roma RM</span>
+						    <span class="facebook_event">https://www.facebook.com/events/140246549872882</span>
+						    <span class="all_day_event">false</span>
+						    <span class="date_format">DD/MM/YYYY</span>
+						    <span class="client">aXaHivJUTzyHACTjRmXR29640</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	<section id="partner" class="section partner">
 		<div class="container">
